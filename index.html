@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <!-- <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="/assets/img/logo.png" alt="" width="50" height="50" class="d-inline-block align-text-top"></a>
+          
+          
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav> -->
+
+      <nav class="navbar">
+        <div class="container-fluid d-flex align-items-center">
+          <a class="navbar-brand d-flex align-items-center">
+            <img src="/assets/img/logo.png" class="logo">
+            <p class="mb-0 ms-2" id="text_logo">Weather <br><font style="color: rgb(255, 255, 14);">Connect</font></p>
+          </a>
+          <form class="d-flex ms-auto" id="form">
+            <input class="form-control me-2" type="search" placeholder="Search" id="search">
+            <button class="btn" type="submit" id="btn_search"><img src="/assets/img/search.png" alt="" id=""></button>
+          </form>
+        </div>
+      </nav>
+    <div class="container mt-5">  
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="/assets/img/sun.png" class="weather" id="weather_img">
+                <h2 class="city"></h2>
+                <h1 class="temp"></h1>
+                <h1 class="humidity"></h1>
+                <h1 class="wind"></h1>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-2">
+                <div class="weather-card">
+                    <div class="header">
+                        <h2 class="days">Aujourd’hui</h2>
+                        <img src="/assets/icon/animated/cloudy-day-1.svg" alt="Weather Icon">
+                    </div>
+                    <p class="temp">Température:      20°C</p>
+                    <p class="vent">Vent:       10 km/h</p>
+                    <p class="humidity">Humidité:     60%</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-2">
+              <div class="weather-card">
+                  <div class="header">
+                      <h2 class="days">Aujourd’hui</h2>
+                      <img src="/assets/icon/animated/cloudy-day-1.svg" alt="Weather Icon">
+                  </div>
+                  <p class="temp">Température:      20°C</p>
+                  <p class="vent">Vent:       10 km/h</p>
+                  <p class="humidity">Humidité:     60%</p>
+              </div>
+          </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-2">
+            <div class="weather-card">
+                <div class="header">
+                    <h2 class="days">Aujourd’hui</h2>
+                    <img src="/assets/icon/animated/cloudy-day-1.svg" alt="Weather Icon">
+                </div>
+                <p class="temp">Température:      20°C</p>
+                <p class="vent">Vent:       10 km/h</p>
+                <p class="humidity">Humidité:     60%</p>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-2">
+          <div class="weather-card">
+              <div class="header">
+                  <h2 class="days">Aujourd’hui</h2>
+                  <img src="/assets/icon/animated/cloudy-day-1.svg" alt="Weather Icon">
+              </div>
+              <p class="temp">Température:      20°C</p>
+              <p class="vent">Vent:       10 km/h</p>
+              <p class="humidity">Humidité:     60%</p>
+          </div>
+      </div>
+  </div>
+    </div>
+    
+<script src="/script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
